@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.gallery-image img {
+    border-radius: 50%;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+body {
+    margin: 0 0;
+    width: 100%;
+}
+
+main {
+    margin: 0 30px;
+}
+
+main .about-info img {
+    display: none;
+}
+
+header .header-banner {
+
+    width: 100%;
+    height: calc(100vh - 1050px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+
+}
+
+header .header-img {
+
+    background-image: url("img/chef\ banner.jpg");
+    width: 100%;
+    height: calc(100vh - 900px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin: 15px 0;
+
+}
+
+header h1 {
+
+    font-family: "Gentium Basic", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 60px;
+    color: #000000;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #c9c9c9;
+    margin: 0 2px;
+
+
+}
+
+header h2 {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0 auto;
+
+}
+
+.about-h2 {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 0px;
+    margin: 6px 0;
+
+}
+
+
+header .logo {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 0 20px 0;
+
+}
+
+header nav ul {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center; /*IE*/
+    width: fit-content;
+    padding: 0 0;
+
+
+}
+
+header nav ul li {
+
+    display: inline-block;
+
+}
+
+nav ul li a {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 8px;
+
+}
+
+footer {
+
+    width: calc(100% - 30px);
+    padding: 15px 15px;
+    background-color: #172029;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+
+
+.disclaimer {
+
+    display: none;
+
+}
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+    vertical-align: center;
+}
+
+footer ul li {
+
+    display: block;
+}
+
+footer ul li p {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin: 0 0;
+
+}
+
+.footer_info {
+    vertical-align: middle
+}
+
+.footer-sm {
+
+    width: 45px;
+    float: right;
+
+}
+
+.footer-sm img {
+
+    width: 100%;
+    margin: 5px 0;
+
+}
+
+hr {
+
+    color: #4f5663;
+    border-width: 2px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+
+}
+
+.gallery-h2 {
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    color: #3a383d;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.gallery-image {
+
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+}
+
+.post-header {
+
+    /*kujundus*/
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 9px #111111;
+
+    /*positsioneerimine*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.gallery-links {
+
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+
+}
+
+@media only screen and (min-width: 950px) {
+
+
+    header .header-banner {
+
+        height: calc(0vh - 400px);
+
+    }
+
+    header h1 a {
+
+        font-size: 80px;
+
+    }
+
+    header h2 {
+
+        font-size: 24px;
+        margin-top: 20px;
+
+    }
+
+    header nav ul li {
+
+        padding: 16px 42px;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    header .header-img {
+
+        background-image: url("img/chef\ banner.jpg");
+        margin: 20px 20px;
+        width: 97%;
+        height: calc(100vh - 900px);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        display: table;
+    }
+
+    .gallery-links {
+
+        justify-content: space-around;
+    
+    }
+
+    main .about-info img {
+        margin: 0px 0px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        display: table;
+    }
+
+    main .about-info {
+        display: flex;
+    }
+
+    main .container {
+        flex: 50%;
+        margin: 0 60px 30px;
+    }
+
+    main .index-header{
+        display: none;
+    }
+
+    main .about {
+        margin: 0 60px;
+    }
+
+    .footer-info {
+        padding: 17px 0 0 50px;
+    }
+
+}
+
+
+
+
